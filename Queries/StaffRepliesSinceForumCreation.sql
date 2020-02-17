@@ -1,6 +1,6 @@
 /* Number of  staff replies since forum creation - insert your date */
 
-SELECT posts.user_id, count(posts.id) as replies
+SELECT posts.user_id, count(posts.id) AS replies
     FROM posts
     WHERE posts.post_type = 1 
           AND posts.post_number > 1 
