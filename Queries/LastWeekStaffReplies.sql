@@ -1,6 +1,6 @@
 /* Number of staff replies in the last week */
 
-SELECT posts.user_id, count(posts.id) as Replies
+SELECT posts.user_id, count(posts.id) AS replies
     FROM posts
       WHERE posts.post_type = 1 AND
             posts.post_number > 1 AND
