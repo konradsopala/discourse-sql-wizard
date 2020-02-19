@@ -5,8 +5,8 @@
 
 WITH query_period AS (
 SELECT
-date_trunc('month', CURRENT_DATE) - INTERVAL ':months_ago months' as period_start,
-date_trunc('month', CURRENT_DATE) - INTERVAL ':months_ago months' + INTERVAL '1 month' - INTERVAL '1 second' as period_end
+  date_trunc('month', CURRENT_DATE) - INTERVAL ':months_ago months' as period_start,
+  date_trunc('month', CURRENT_DATE) - INTERVAL ':months_ago months' + INTERVAL '1 month' - INTERVAL '1 second' as period_end
 )
 
 SELECT
