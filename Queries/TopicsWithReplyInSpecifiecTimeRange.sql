@@ -19,6 +19,7 @@ posts AS (
     FROM posts, timeframe
     WHERE topic_id IN (SELECT * FROM timeframe)
     )
+    
 SELECT count(*)
 FROM posts
 WHERE date_part('year', created_at) = :year
