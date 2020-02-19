@@ -5,7 +5,7 @@
 
 SELECT posts.user_id, count(posts.id) as replies
     FROM posts
-    WHERE (posts.created_at >= date_trunc('week', CURRENT_TIMESTAMP - INTERVAL :interval) and
+    WHERE (posts.created_at >= date_trunc('week', CURRENT_TIMESTAMP - INTERVAL :interval) AND
         posts.created_at < date_trunc('week', CURRENT_TIMESTAMP)) AND
         posts.user_id IN
         (SELECT users.id FROM users WHERE users.primary_group_id = 42)
