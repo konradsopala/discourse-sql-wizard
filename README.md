@@ -1,11 +1,5 @@
 # Discourse Wizard - get useful queries quickly!
 
-<p align="left">
-<img src="https://img.shields.io/badge/developer-community-brightgreen"/>
-<img src="https://img.shields.io/badge/developer-ecosystem-brightgreen"/>
-<img src="https://img.shields.io/badge/devrel-tools-brightgreen"/>
-</p>
-
 Are you a developer community engineer? Or maybe a developer community lead? Doesn't matter! If you're using Discourse as your main platform for hosting your company developer forum, for sure sooner or later you will be using the Data Explorer plugin! This repo is your place for finding useful queries. **Simply go to Queries folder!**
 
 ### Data Explorer 
