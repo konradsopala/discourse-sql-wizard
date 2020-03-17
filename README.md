@@ -1,5 +1,8 @@
 # Discourse Wizard - get useful queries quickly!
 
+<a href="https://www.discourse.org/"><img src="https://img.shields.io/badge/Discourse-Community-blueviolet" alt=""/></a>     <a href="https://www.discourse.org/plugins/data-explorer.html"><img src="https://img.shields.io/badge/Data-Explorer-blueviolet" alt=""/></a>   <a href="https://meta.discourse.org/t/data-explorer-plugin/32566/167"><img src="https://img.shields.io/badge/Analytics-Plugin-blueviolet" alt=""/></a>
+
+
 Are you a developer community engineer? Or maybe a developer community lead? Doesn't matter! If you're using Discourse as your main platform for hosting your company developer forum, for sure sooner or later you will be using the Data Explorer plugin! This repo is your place for finding useful queries. **Simply go to Queries folder!**
 
 ### Data Explorer 
