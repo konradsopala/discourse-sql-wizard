@@ -1,5 +1,7 @@
 # Discourse Wizard - get useful queries quickly!
 
+![](/DiscourseWizard.png)
+
 <a href="https://www.discourse.org/"><img src="https://img.shields.io/badge/Discourse-Community-blueviolet" alt=""/></a>     <a href="https://www.discourse.org/plugins/data-explorer.html"><img src="https://img.shields.io/badge/Data-Explorer-blueviolet" alt=""/></a>   <a href="https://meta.discourse.org/t/data-explorer-plugin/32566/167"><img src="https://img.shields.io/badge/Analytics-Plugin-blueviolet" alt=""/></a>
 
 
