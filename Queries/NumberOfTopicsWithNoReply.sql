@@ -1,11 +1,10 @@
-/* Number of topics with no reply */
+/* Number of topics with no reply per month */
 
--- [params]
--- string :interval = 1 month
-
-SELECT count(*)
-FROM topics
-WHERE (created_at >= date_trunc('month', CURRENT_TIMESTAMP - INTERVAL :interval)
-  AND created_at < date_trunc('month', CURRENT_TIMESTAMP))
-  AND posts_count > 1
-  AND deleted_at IS NULL
+SELECT date_part('month', created_at) as Month, date_part('year', created_at) AS Year, count(id) AS "Unanswered Topics"
+FROM topics t
+WHERE archetype <> 'private_message'
+    AND deleted_at IS NULL
+    AND posts_count = 1
+    
+GROUP BY Year, Month
+ORDER BY Year DESC, Month DESC
