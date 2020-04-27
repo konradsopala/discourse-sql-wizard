@@ -1,4 +1,4 @@
-# Discourse Wizard - get useful queries quickly!
+# Discourse SQL Wizard - get useful queries quickly!
 
 ![](/Assets/DiscourseWizard.png)
 
